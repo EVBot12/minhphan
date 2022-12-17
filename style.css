@@ -65,7 +65,7 @@
     text-align: center;
     width: 100%;
     transition: 0.5s;
-    transform: translateY(230px);
+    transform: translateY(260px);
 }
 
 .card:hover .cap .details{
@@ -73,7 +73,7 @@
 } 
 
 .card .cap .details h2{
-    font-size: 1.25em;
+    font-size: 1.70em;
     font-weight: 600;
     color: #B3FFAE;
     line-height: 1.2em;
@@ -93,7 +93,7 @@
 }
 
 .card .cap .data h3{
-    font-size: 1em;
+    font-size: 1.2em;
     color: #fff;
     line-height: 1.2em;
     font-weight: 600;
@@ -116,14 +116,18 @@
     border-radius: 200px;
     border: none;
     outline: none;
-    font-size: 1em;
-    font-weight: 700;
-    background: #FF5F95;
+    font-size: 1.05em;
+    font-weight: 600;
     color: black;
     cursor: pointer;
 }
 
+.card .cap .info button:nth-child(1){
+    color: #15133C;
+    background: linear-gradient(30deg ,#4C3A51, #774360, #B25068, #E7AB79);
+}
+
 .card .cap .info button:nth-child(2){
-    color: whitesmoke;
-    background: aqua;
-} 
+    color: #42032C;
+    background: linear-gradient(30deg ,#453C67, #6D67E4, #46C2CB, #F2F7A1);
+}
